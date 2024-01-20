@@ -30,3 +30,16 @@ Two types of packages :
     - Reusable: Code used as helpers. Place to put reuasable logic.
 
 If the package is ```main```, then thaat is an executable.
+
+## Import statements
+
+Gives the currrent package an access to all the functions and variables in another package.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Arrays and slices
+
+Array : fixed length list of things
+Slice: An array that can grow and shrink
+
+Every element in a slice must be of same type.
