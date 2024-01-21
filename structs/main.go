@@ -34,6 +34,9 @@ func main() {
 
 	hardpope.printContact()
 
+	hardpope.updateName("hardy")
+
+	hardpope.printPerson()
 
 }
 
@@ -43,4 +46,9 @@ func (p person) printPerson(){
 
 func (p person) printContact(){
 	fmt.Printf("The contact of %v is %+v\n", p.fname, p.contact)
+}
+
+func (p person) updateName(fname string){
+	p.fname = fname
+	p.printPerson()
 }
