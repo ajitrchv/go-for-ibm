@@ -34,9 +34,9 @@ func main() {
 
 	hardpope.printContact()
 
-	h := &hardpope
+	// h := &hardpope
 
-	h.updateName("hardy")
+	hardpope.updateName("hardy")
 
 	hardpope.printPerson()
 
