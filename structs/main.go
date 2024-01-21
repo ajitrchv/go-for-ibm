@@ -9,6 +9,14 @@ type person struct {
 }
 
 func main() {
-	person1 := person{fname: "Ajith", lname: "Reji"}
-	fmt.Println(person1)
+	var p1 person
+	p1.fname = "Ajith"
+	p1.lname = "Reji"
+	p1.printPerson()
+
+
+}
+
+func (p person) printPerson(){
+	fmt.Printf("The person is %v %v", p.fname, p.lname)
 }
